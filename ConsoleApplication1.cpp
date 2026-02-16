@@ -13,7 +13,7 @@ int subtract(int a, int b)
 
 int main()
 {
-	cout << "==Калькулятор v1.0" << endl;
+	cout << "==Калькулятор v1.2" << endl;
 	cout << "Доступные операции: +,-" << endl;
 
 	int a, b;
