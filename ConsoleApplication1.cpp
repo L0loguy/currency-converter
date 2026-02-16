@@ -17,10 +17,9 @@ int umnozenie(int a, int b)
 
 int main()
 {
-
 	setlocale(LC_ALL, "RU");
-	
-	cout << "==Калькулятор v1.1" << endl;
+
+	cout << "==Калькулятор v1.2" << endl;
 
 	cout << "Доступные операции: +,-" << endl;
 
@@ -39,9 +38,19 @@ int main()
 	{
 		cout << "Результат: " << subtract(a, b) << endl;
 	}
+
 	else if (op == '*')
 	{
 		cout << "Результат: " << a * b << endl;
+	}
+	else if (op == '^')
+	{
+		cout << "Результат: " << pow(a,b) << endl;
+	}
+	else if (op == '%')
+	{
+		cout << "Результат: " << a % b << endl;
+
 	}
 	else
 	{
