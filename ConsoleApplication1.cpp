@@ -10,11 +10,18 @@ int subtract(int a, int b)
 {
 	return a - b;
 }
+int umnozenie(int a, int b)
+{
+	return a * b;
+}
 
 int main()
 {
+
 	setlocale(LC_ALL, "RU");
-	cout << "==Калькулятор v1.0" << endl;
+	
+	cout << "==Калькулятор v1.1" << endl;
+
 	cout << "Доступные операции: +,-" << endl;
 
 	int a, b;
@@ -31,6 +38,10 @@ int main()
 	else if (op == '-')
 	{
 		cout << "Результат: " << subtract(a, b) << endl;
+	}
+	else if (op == '*')
+	{
+		cout << "Результат: " << a * b << endl;
 	}
 	else
 	{
