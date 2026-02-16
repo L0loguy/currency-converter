@@ -13,13 +13,14 @@ int subtract(int a, int b)
 
 int main()
 {
+	setlocale(LC_ALL, "RU");
 	cout << "==Калькулятор v1.0" << endl;
 	cout << "Доступные операции: +,-" << endl;
 
 	int a, b;
 	char op;
 
-	cout << "Введите выражение (например 5 + 3): ";
+	cout << "Введите выражение";
 	cin >> a >> op >> b;
 
 	if (op == '+')
