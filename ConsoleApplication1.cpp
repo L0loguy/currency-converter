@@ -38,7 +38,7 @@ int main()
 	{
 		cout << "Результат: " << subtract(a, b) << endl;
 	}
-	else if (op == '-')
+	else if (op == '*')
 	{
 		cout << "Результат: " << umnozenie(a, b) << endl;
 	}
