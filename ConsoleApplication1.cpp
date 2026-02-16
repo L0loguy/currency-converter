@@ -14,12 +14,16 @@ int umnozenie(int a, int b)
 {
 	return a * b;
 }
+int stepen(int a, int b)
+{
+	return pow(a,b);
+}
 
 int main()
 {
 	setlocale(LC_ALL, "RU");
 
-	cout << "==Калькулятор v1.2" << endl;
+	cout << "==Калькулятор v1.3" << endl;
 
 	cout << "Доступные операции: +,-" << endl;
 
@@ -37,6 +41,10 @@ int main()
 	else if (op == '-')
 	{
 		cout << "Результат: " << subtract(a, b) << endl;
+	}
+	else if (op == '^')
+	{
+		cout << "Результат: " << stepen(a,b) << endl;
 	}
 	else
 	{
