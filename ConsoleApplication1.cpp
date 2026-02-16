@@ -38,20 +38,6 @@ int main()
 	{
 		cout << "Результат: " << subtract(a, b) << endl;
 	}
-
-	else if (op == '*')
-	{
-		cout << "Результат: " << a * b << endl;
-	}
-	else if (op == '^')
-	{
-		cout << "Результат: " << pow(a,b) << endl;
-	}
-	else if (op == '%')
-	{
-		cout << "Результат: " << a % b << endl;
-
-	}
 	else
 	{
 		cout << "Ошибка" << endl;
